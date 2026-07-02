@@ -6,9 +6,9 @@ const config: Config = {
   title: 'KYC Playbook',
   tagline: "The world's most comprehensive free learning platform for AML, KYC, EDD, and Financial Crime Compliance.",
   favicon: 'img/favicon.svg',
-  url: 'https://kidddoo12.github.io',
+  url: 'https://FinCrime.github.io',
   baseUrl: '/kyc-playbook/',
-  organizationName: 'kidddoo12',
+  organizationName: 'FinCrime',
   projectName: 'kyc-playbook',
   onBrokenLinks: 'warn',
   trailingSlash: false,
@@ -33,14 +33,14 @@ const config: Config = {
       {
         docs: {
           sidebarPath: './sidebars.ts',
-          editUrl: 'https://github.com/kidddoo12/kyc-playbook/tree/main/',
+          editUrl: 'https://github.com/FinCrime/kyc-playbook/tree/master/',
           showLastUpdateTime: false,
           showLastUpdateAuthor: false,
           breadcrumbs: true,
         },
         blog: {
           showReadingTime: true,
-          editUrl: 'https://github.com/kidddoo12/kyc-playbook/tree/main/',
+          editUrl: 'https://github.com/FinCrime/kyc-playbook/tree/master/',
           blogTitle: 'KYC Playbook Blog',
           blogDescription: 'Latest updates, case studies, and compliance insights.',
           postsPerPage: 10,
@@ -80,7 +80,7 @@ const config: Config = {
         { to: '/docs/glossary', label: 'Glossary', position: 'left' },
         { to: '/blog', label: 'Blog', position: 'left' },
         {
-          href: 'https://github.com/kidddoo12/kyc-playbook',
+          href: 'https://github.com/FinCrime/kyc-playbook',
           label: 'GitHub',
           position: 'right',
         },
@@ -122,7 +122,7 @@ const config: Config = {
         {
           title: 'Community',
           items: [
-            { label: 'GitHub', href: 'https://github.com/kidddoo12/kyc-playbook' },
+            { label: 'GitHub', href: 'https://github.com/FinCrime/kyc-playbook' },
             { label: 'Contributing', to: '/docs/introduction/contributing' },
             { label: 'Blog', to: '/blog' },
             { label: 'LinkedIn', href: 'https://www.linkedin.com/in/amlwithvikas' },
