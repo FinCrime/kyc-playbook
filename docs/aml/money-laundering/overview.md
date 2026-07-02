@@ -101,7 +101,6 @@ Key FATF frameworks:
 Identifying potential money laundering requires pattern recognition. Common indicators include:
 :::
 
-import RedFlagList from '../../../src/components/RedFlagList';
 
 - **Structuring / Smurfing** — Transactions deliberately kept below reporting thresholds (e.g., $10,000 CTR threshold in the US)
 - **Rapid movement of funds** — Funds received and immediately transferred, especially to high-risk jurisdictions

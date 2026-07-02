@@ -4,14 +4,13 @@ import type * as Preset from '@docusaurus/preset-classic';
 
 const config: Config = {
   title: 'KYC Playbook',
-  tagline: 'The world\'s most comprehensive free learning platform for AML, KYC, EDD, and Financial Crime Compliance.',
+  tagline: "The world's most comprehensive free learning platform for AML, KYC, EDD, and Financial Crime Compliance.",
   favicon: 'img/favicon.svg',
   url: 'https://kidddoo12.github.io',
   baseUrl: '/kyc-playbook/',
   organizationName: 'kidddoo12',
   projectName: 'kyc-playbook',
   onBrokenLinks: 'warn',
-  onBrokenMarkdownLinks: 'warn',
   trailingSlash: false,
 
   i18n: {
@@ -21,6 +20,9 @@ const config: Config = {
 
   markdown: {
     mermaid: true,
+    hooks: {
+      onBrokenMarkdownLinks: 'warn',
+    },
   },
 
   themes: ['@docusaurus/theme-mermaid'],
@@ -54,7 +56,8 @@ const config: Config = {
     image: 'img/logo.svg',
     announcementBar: {
       id: 'launch_v1',
-      content: '🚀 KYC Playbook v1.0 is live! Free, open-source AML/KYC learning platform. <a href="/kyc-playbook/docs/introduction/welcome">Start Learning →</a>',
+      content:
+        '🚀 KYC Playbook v1.0 is live! Free, open-source AML/KYC learning platform. <a href="/kyc-playbook/docs/introduction/welcome">Start Learning →</a>',
       backgroundColor: '#1e40af',
       textColor: '#ffffff',
       isCloseable: true,
@@ -72,21 +75,9 @@ const config: Config = {
           position: 'left',
           label: 'Learn',
         },
-        {
-          to: '/docs/career/overview',
-          label: 'Career',
-          position: 'left',
-        },
-        {
-          to: '/docs/labs/overview',
-          label: 'Labs',
-          position: 'left',
-        },
-        {
-          to: '/docs/glossary',
-          label: 'Glossary',
-          position: 'left',
-        },
+        { to: '/docs/career/overview', label: 'Career', position: 'left' },
+        { to: '/docs/labs/overview', label: 'Labs', position: 'left' },
+        { to: '/docs/glossary', label: 'Glossary', position: 'left' },
         { to: '/blog', label: 'Blog', position: 'left' },
         {
           href: 'https://github.com/kidddoo12/kyc-playbook',
