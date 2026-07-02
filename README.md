@@ -2,9 +2,9 @@
 
 **The world's most comprehensive free learning platform for AML, KYC, EDD, and financial crime compliance.**
 
-[![Deploy to GitHub Pages](https://github.com/kidddoo12/kyc-playbook/actions/workflows/deploy.yml/badge.svg)](https://github.com/kidddoo12/kyc-playbook/actions/workflows/deploy.yml)
+[![Deploy to GitHub Pages](https://github.com/FinCrime/kyc-playbook/actions/workflows/deploy.yml/badge.svg)](https://github.com/FinCrime/kyc-playbook/actions/workflows/deploy.yml)
 
-🌐 **Live Site:** [https://kidddoo12.github.io/kyc-playbook](https://kidddoo12.github.io/kyc-playbook)
+🌐 **Live Site:** [https://FinCrime.github.io/kyc-playbook](https://FinCrime.github.io/kyc-playbook)
 
 ---
 
@@ -33,7 +33,7 @@ Built by practitioners. For practitioners.
 
 ```bash
 # Clone the repository
-git clone https://github.com/kidddoo12/kyc-playbook.git
+git clone https://github.com/FinCrime/kyc-playbook.git
 cd kyc-playbook
 
 # Install dependencies
@@ -73,7 +73,7 @@ MIT License — see [LICENSE](LICENSE) for details.
 
 ## About
 
-KYC Playbook is maintained by the AML/KYC compliance community. Created by **AML with Vikas** ([LinkedIn](https://www.linkedin.com/in/amlwithvikas)).
+KYC Playbook is maintained by the AML/KYC compliance community. Created by **Vikas** ([LinkedIn](https://www.linkedin.com/in/vikas1999/)).
 
 ---
 
