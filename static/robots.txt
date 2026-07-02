@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://kidddoo12.github.io/kyc-playbook/sitemap.xml

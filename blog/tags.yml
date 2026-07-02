@@ -1,0 +1,18 @@
+aml:
+  label: AML
+  permalink: /aml
+kyc:
+  label: KYC
+  permalink: /kyc
+sanctions:
+  label: Sanctions
+  permalink: /sanctions
+edd:
+  label: EDD
+  permalink: /edd
+career:
+  label: Career
+  permalink: /career
+case-study:
+  label: Case Study
+  permalink: /case-study
